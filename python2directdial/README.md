@@ -1,6 +1,14 @@
 directdial
 ==========
 
+steps : 
+
+1. create python2 virtualenv
+2. virtualenv -p /usr/bin/python3 venv
+3. source venv/bin/activate
+4. pip install -r requirements.txt
+5. python2 app.py 
+
 Direct Dial application.
 
 Ready to be used with Heroku.
